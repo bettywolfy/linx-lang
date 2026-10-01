@@ -1,0 +1,5 @@
+# greets the first argument
+fun main, args
+  def name args[0] $ "world"
+  os:println("hello, "~name~"!")
+end
