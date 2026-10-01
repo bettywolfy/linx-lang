@@ -1,0 +1,5 @@
+# sum of a and b
+fun main
+  def a 2, b 3
+  os:println(a~"+"~b~" = "~a+b)
+end

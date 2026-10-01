@@ -1,0 +1,17 @@
+# factorial
+fun factr, x
+  if x<0 ; retv nan
+  if x<2 ; retv 1
+  def j x
+  while x>1
+    set x x-1
+    set j x*j
+  end
+  retv j
+end
+
+fun main
+  for i 0, i<10, 1
+    os:println(i~"! = "~factr(i))
+  end
+end
